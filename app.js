@@ -21,12 +21,12 @@ authRoutes(app);
 roleRoutes(app);
 orderRoutes(app);
 
-// app.listen( serverPort, async () => {
-//     await sequelize.sync();
-//     console.log(`App listening on ${serverPort}`)
-// })
-
-app.listen( serverPort, () => {
+app.listen( serverPort, async () => {
+    await sequelize.sync();
     console.log(`App listening on ${serverPort}`)
 })
+
+// app.listen( serverPort, () => {
+//     console.log(`App listening on ${serverPort}`)
+// })
 
