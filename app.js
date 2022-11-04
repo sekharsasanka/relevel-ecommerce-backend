@@ -7,7 +7,7 @@ const productRoutes = require('./routes/product.route');
 const authRoutes = require('./routes/auth.route');
 const roleRoutes = require('./routes/role.route');
 const orderRoutes = require('./routes/order.route');
-const serverPort = require('./config/serverconfig');
+const serverPort = 8080
 const app = express();
 app.use(cors());
 
