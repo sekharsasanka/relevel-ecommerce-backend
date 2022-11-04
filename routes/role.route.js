@@ -4,7 +4,7 @@ const authenticationMiddleware = require('../middlewares/authentication.validato
 const routes = (app) => {
 
     /*route for adding roles*/
-    app.post('/ecomm/api/v1/role', authenticationMiddleware.isAuthenticated,authenticationMiddleware.checkAdmin,roleController.addRoleToUser);
+    app.post('/ecomm/api/v1/role', authenticationMiddleware.isAuthenticated,roleController.addRoleToUser);
 
 
     /*route for removing or deleteing roles*/
