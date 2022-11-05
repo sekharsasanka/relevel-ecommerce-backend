@@ -2,7 +2,7 @@
   "name": "ecommerceapp",
   "version": "1.0.0",
   "description": "My first Ecommerce Application",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "jest"
