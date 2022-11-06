@@ -1,4 +1,4 @@
-require('dotenv').config();
+// require('dotenv').config();
 module.exports = {
   "development": {
     "username": "usthwkrypmnmx1g2",

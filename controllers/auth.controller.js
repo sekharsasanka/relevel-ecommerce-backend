@@ -1,7 +1,7 @@
 const authservice = require('../services/AuthService');
 const authHelperService = require('../services/auth-helper-service');
 const jwt = require('jsonwebtoken');
-require('dotenv').config();
+// require('dotenv').config();
 
 const signup = async (req, res) => {
     
